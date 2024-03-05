@@ -1,8 +1,19 @@
-# Default ignored files
-/shelf/
-/workspace.xml
-# Editor-based HTTP Client requests
-/httpRequests/
-# Datasource local storage ignored files
-/dataSources/
-/dataSources.local.xml
+# Arxius generats per Eclipse
+.classpath
+.project
+.settings/
+
+# Carpeta de sortida dels fitxers de construcció (compilació)
+bin/
+
+# Carpeta de dependències gestionades per Maven
+target/
+.m2/
+
+# Fitxers de configuració específics del sistema o de l'usuari
+.DS_Store
+.metadata/
+
+# Fitxers de logs o temporals
+*.log
+*.tmp
